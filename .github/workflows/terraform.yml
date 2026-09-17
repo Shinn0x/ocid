@@ -23,7 +23,7 @@ jobs:
     # No `environment:` on purpose: it would change the OIDC subject to
     # repo:alex/ocid:environment:<name>, which the role's trust policy rejects.
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: aws-actions/configure-aws-credentials@v4
         with:
