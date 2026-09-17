@@ -11,7 +11,7 @@ terraform {
 
   # Backend blocks cannot use variables, so these values must be literals.
   backend "s3" {
-    bucket       = "shinn0x-ocid-tfstate"
+    bucket       = "shinnx-ocid-tfstate"
     key          = "ocid/terraform.tfstate"
     region       = "ap-southeast-1"
     encrypt      = true
